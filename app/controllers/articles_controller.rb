@@ -12,7 +12,6 @@ class ArticlesController < ApplicationController
     end
 
     def new
-        session[:user_id] = nil
         @article = Article.new
     end
 
