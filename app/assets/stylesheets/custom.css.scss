@@ -4,6 +4,14 @@
     width: fit-content;
 }
 
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
 .navbar {
     background-color: black !important;
     }
