@@ -4,6 +4,15 @@
     background-color: black !important;
     }
 
+.navbar-toggler {
+    color: white;
+    background-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    color: gray;
+  }
+
 .nav-link {
     color: white !important;
 }
